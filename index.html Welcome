@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background:linear-gradient(135deg,#4facfe,#00f2fe);
+        }
+
+        .container{
+            background:#fff;
+            padding:50px;
+            border-radius:15px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.2);
+            text-align:center;
+        }
+
+        h1{
+            color:#333;
+            font-size:48px;
+        }
+
+        p{
+            margin-top:10px;
+            color:#666;
+            font-size:18px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome</h1>
+    <p>Have a Great Day!</p>
+</div>
+
+</body>
+  </html>
